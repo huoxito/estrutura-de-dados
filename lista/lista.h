@@ -59,7 +59,7 @@ int insere(tlista *L, telem elem, int pos)
         {
             novo->dado = elem;
             novo->prox = P->prox;
-            P->prox = novo; // bug?: Quando lista já existe o método exclui os próximos elementos da lista
+            P->prox = novo;
             return 1;
         }
         P = P->prox;

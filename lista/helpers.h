@@ -41,7 +41,7 @@ void inserir_elemento(tlista *lista)
 
     if(insere(lista, elemento, posicao))
     {
-        printf("Elemento %d inserido na lista");
+        printf("Elemento %d inserido na lista", elemento);
     }
     else
     {
